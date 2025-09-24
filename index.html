@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <style>
+        /* SF Pro / system font stack */
+        body {
+            background-color: #000000; /* true black */
+            color: #ffffff;           /* pure white text */
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+            font-weight: 300;          /* thin style */
+            line-height: 1.35;        /* reduced line spacing */
+            margin: 0;               /* span full viewport horizontally */
+            padding: 24px;          /* reduced padding for denser layout */
+        }
+        h1 {
+            font-weight: 300; /* thin heading */
+            font-size: calc(2.4em + 2px);   /* increased by 2px */
+            margin-bottom: 12px; /* tighter spacing below heading */
+        }
+        p {
+            font-weight: 200; /* thin paragraph */
+            font-size: calc(1.125em + 2px); /* increased by 2px */
+            margin: 12px 0;     /* reduced vertical spacing for paragraphs */
+        }
+        span.highlight {
+            color: #00ffff;
+            font-weight: 500;
+        }
+        section {
+            width: 100%;           /* use whole available width */
+            max-width: none;      /* remove previous content width limit */
+            margin: 0;             /* no auto-centering */
+            padding: 0 20px;       /* horizontal padding for readability on large screens */
+        }
+        /* ensure headings and paragraphs are left-aligned for single-column flow */
+        h1, p {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <section id="about-me">
+        <h1>Hi, I'm Dhiraj Singh</h1>
+        <p>
+            I'm a passionate Backend & Cloud Engineer with hands-on experience in building scalable, production-ready systems. I specialize in 
+            <span class="highlight">Python</span>, 
+            <span class="highlight">FastAPI</span>, 
+            <span class="highlight">Docker</span>, 
+            <span class="highlight">Kubernetes</span>, 
+            and <span class="highlight">Cloud DevOps</span>. I enjoy solving complex problems, optimizing infrastructure, 
+            and crafting efficient solutions that make a real impact. Always eager to learn, I strive to grow humbly while delivering value through code.
+        </p>
+        <p>
+            On this portfolio, you'll find my projects, experiments, and insights that reflect my journey in backend development and cloud engineering.
+        </p>
+    </section>
+</body>
+</html>
